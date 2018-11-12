@@ -10,3 +10,6 @@
 [submodule "pack/plugins/start/vim-scala"]
 	path = pack/plugins/start/vim-scala
 	url = https://github.com/derekwyatt/vim-scala
+[submodule "pack/plugins/start/YouCompleteMe"]
+	path = pack/plugins/start/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
