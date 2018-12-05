@@ -13,3 +13,6 @@
 [submodule "pack/plugins/start/YouCompleteMe"]
 	path = pack/plugins/start/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "pack/plugins/start/typescript-vim"]
+	path = pack/plugins/start/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
