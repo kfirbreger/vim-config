@@ -46,9 +46,9 @@ set number
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
 syntax enable
-set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
+" set background=dark
+" let g:solarized_termcolors=256
+colorscheme cobalt
 
 " Set extra options when running in GUI mode
 if has("gui_running")
