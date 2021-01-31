@@ -37,6 +37,10 @@ set mat=2
 " Show line number
 set number
 
+" Open split right or bellow
+set splitbelow
+set splitright
+
 " Make NERDTree visible in all tabs
 " let g:nerdtree_tabs_open_on_console_startup=1
 " Let enter open file in new tab, o will still open in current tab
@@ -46,9 +50,9 @@ set number
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
 syntax enable
-" set background=dark
-" let g:solarized_termcolors=256
-colorscheme cobalt
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 
 " Set extra options when running in GUI mode
 if has("gui_running")
